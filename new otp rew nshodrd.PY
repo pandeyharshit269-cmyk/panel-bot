@@ -29,26 +29,26 @@ API_URLS_NEW = [
 API_URL_MAIN = "https://api-junaid-production.up.railway.app/api/ps?type=sms"
 POLL_INTERVAL = 10
 
-BOT_TOKEN = "8834364544:AAFmcBJUZaQ8qqYn6NSGdrltodI6qeZVcdk"
+BOT_TOKEN = "8995918624:AAGzj1VfH42YshRbJLRhpFmDZNkJxMF-m7I"
 
 # Currency conversion: 1 USD = 180 Rs (approximate)
 RS_PER_USD = 160.0
 OTP_REWARD_MILESTONE = 200
 OTP_REWARD_RS = 50
 MAX_OTP_PER_NUMBER = 5
-ADMIN_IDS = [8601285274, 8868774393, 8868774393]  # 3 Admin slots, replace placeholders with real IDs
+ADMIN_IDS = [5385377266, 8700952672, 6154383311]  # 3 Admin slots, replace placeholders with real IDs
 
-CHANNEL_LINK = "https://t.me/syed_bio"
-CHAT_LINK = "https://t.me/syedtechteam"
-PANEL_LINK = "https://t.me/OTP_WORKBOT?start=8601285274"
+CHANNEL_LINK = "https://t.me/KRYON_JI"
+CHAT_LINK = "https://t.me/TH3GALAXY"
+PANEL_LINK = "https://t.me/otppanelsellingbot?start=8995918624"
 
 FORCE_CHANNELS = [
-    {"link": "https://t.me/syedtechteam", "name": "𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
-    {"link": "https://t.me/MRISBRAND_OFFICIAL", "name": "𝗠𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
-    {"link": "https://t.me/botmaking_channel", "name": "𝗯𝗼𝘁𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
-    {"link": "https://t.me/syedmethods", "name": "𝗠𝗲𝘁𝗵𝗼𝗱𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
+    {"link": "https://t.me/KRYON_JI", "name": "𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
+    {"link": "https://t.me/TH3GALAXY", "name": "𝗠𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
+    {"link": "https://t.me/SASSY_SQUAD", "name": "𝗯𝗼𝘁𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
+    {"link": "https://t.me/ABOUTKUSH", "name": "𝗠𝗲𝘁𝗵𝗼𝗱𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹"},
 ]
-FORCE_GROUP = {"link": "https://t.me/syedotpzone2", "name": "𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽"}
+FORCE_GROUP = {"link": "https://t.me/KRYON_JI", "name": "𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽"}
 
 def _extract_username(link):
     return "@" + link.replace("https://t.me/", "").replace("http://t.me/", "").split("/")[0]
