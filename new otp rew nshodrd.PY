@@ -1618,7 +1618,7 @@ def show_assigned_numbers(chat_id, uid, svc_name, ccode, user_nums, show_cc=True
     rows.append([btn(cc_btn_text, f"toggle_cc_{svc_name}_{ccode}", style="primary", emoji_tag=cc_emoji)])
     rows.append([btn("Change Country", f"changectry_{svc_name}", style="success", emoji_tag="world")])
     rows.append([btn("Refresh Numbers", f"changenum_{svc_name}_{ccode}", style="success", emoji_tag="rocket")])
-    rows.append([btn("OTP Group", url="https://t.me/syedotpzone2", style="danger", emoji_tag="broadcast")])
+    rows.append([btn("OTP Group", url="https://t.me/TNLOTPZONE", style="danger", emoji_tag="broadcast")])
     send_message(chat_id, text, build_inline(rows))
 
 def handle_service_selected_no_back(chat_id, uid, svc_name):
@@ -1866,7 +1866,7 @@ def handle_channels(chat_id):
     rows = [
         [btn("𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=CHANNEL_LINK, style="primary", emoji_tag="channel")],
         [btn("𝗡𝗨𝗠𝗕𝗘𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=CHAT_LINK, style="success", emoji_tag="call")],
-        [btn("𝗠𝗘𝗧𝗛𝗢𝗗𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/syedmethods", style="success", emoji_tag="channel")],
+        [btn("𝗠𝗘𝗧𝗛𝗢𝗗𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/TNLMETHODS", style="success", emoji_tag="channel")],
     ]
     send_message(chat_id, text, build_inline(rows))
 
