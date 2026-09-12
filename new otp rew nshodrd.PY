@@ -1838,8 +1838,8 @@ def handle_top_users(chat_id):
 def handle_developer(chat_id):
     text = (
         f"{ce('verified','👨‍💻')} <b>Developer Info</b>\n\n"
-        f"{ce('hacker','🚀')} <b>Bot Made By:</b> <code>SYED HACKER </code>\n"
-        f"{ce('crown','👑')} <b>Owner:</b> <a href=\"https://t.me/SYEDHACKEROFFICIAL\">𝗦𝗬𝗘𝗗 𝗛𝗔𝗖𝗞𝗘𝗥</a>\n\n"
+        f"{ce('hacker','🚀')} <b>Bot Made By:</b> <code>FLEX SAMAY </code>\n"
+        f"{ce('crown','👑')} <b>Owner:</b> <a href=\"t.me/FLEXSAMAY\">𝐅𝐋𝐄𝐗 𝐒𝐀𝐌𝐀𝐘</a>\n\n"
         f"{ce('channel','📢')} <b>Channel:</b> <a href=\"{CHANNEL_LINK}\">𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>\n"
         f"{ce('link','🔗')} <b>Chat:</b> <a href=\"{CHAT_LINK}\">𝗡𝗨𝗠𝗕𝗘𝗥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟</a>"
     )
